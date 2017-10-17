@@ -1,0 +1,57 @@
+.lot-header-image{
+  height: 115px;
+  background-color: $gray-dark;
+}
+
+.lot-text-inside{
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  h2{
+    color:$gray-dark;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: $base-font;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+  }
+  h3{
+    color: $gray-lighter;
+    font-size: 16px;
+    font-family: $header-font;
+    font-style: italic;
+  }
+}
+
+.lot-card{
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  .lot-card-img-top{
+    height:200px;
+  }
+  .lot-card-block{
+    border: solid red 2px;
+    height: 100%;
+    .card-blok-inside{
+      padding-right:1em;
+      padding-left:1em;
+      h4{
+        color: $gray-dark !important;
+        font-family:$base-font !important;
+        font-style: 15px !important;
+        font-weight: bold !important;
+      }
+      h5{
+        color: $gray-dark !important;
+        font-family:$header-font !important;
+        font-style: 8px !important;
+      }
+      p{
+        color: $orange !important;
+        font-family:$header-font !important;
+        font-style: 8px !important;
+      }
+    }
+  }
+}
