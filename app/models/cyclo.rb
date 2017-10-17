@@ -1,0 +1,2 @@
+class Cyclo < ApplicationRecord
+end

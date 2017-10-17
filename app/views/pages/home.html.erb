@@ -1,0 +1,127 @@
+
+<header>
+  <div class="header-base-line align-items-center d-flex justify-content-center">
+    <div class="header-base-line-content">
+      <h1 style="">On assure votre : <span id="textsheader" style="border-bottom: 2px solid #F75100;">Récompensé</span></h1>
+      <br>
+      <a href="#challenge" class="btn btn-orange-lg">Voir le Challenge</a>
+    </div>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('<%= image_path "header-slide2.jpg" %>')">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('<%= image_path "header-slide2.jpg" %>')">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Explication du Challenge -->
+<div class="headline-wrapper d-flex justify-content-center align-items-center" id="challenge">
+  <div class="headline">
+    <h2><span style="border-bottom: 2px solid #F75100;">Présentation</span> du challenge Assurances Vélo</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi fugiat, maiores ducimus. Suscipit qui unde ut at, labore itaque neque aliquid cupiditate dignissimos asperiores esse, porro laborum debitis non hic.</h3>
+  </div>
+</div>
+
+<!-- Cyclosportes partenaires -->
+
+<div class="cyclo-wrapper" id="epreuves">
+ <div class="cyclo" id="about">
+   <h2><span style="border-bottom: 2px solid #F75100;">Cyclospostives </span>partenaires</h2>
+   <h3>11 cyclosportives sont intégrés dans le challenge assurances vélo</h3>
+ </div>
+ <div class="container">
+   <div class="row cyclo-row-padding">
+    <% @cyclos.each do |cyclo| %>
+    <div class="col-xs-12 col-sm-4">
+     <div class="card card-cyclo" style="width: 20rem;">
+       <a href="" class="cyclo-link">
+         <div class="cyclo-hover">
+           <div class="cyclo-hover-content">
+             <i class="fa fa-plus fa-3x"></i>
+           </div>
+         </div>
+         <img class="card-img-top" src="<%= image_path "header-slide1.jpg" %>" alt="Card image cap">
+         <div class="card-block card-block-cyclo">
+           <h4 class="card-title"><%= cyclo.name %></h4>
+           <p class="card-text"><span style="color:#F75100;">1er étape</span> du challenge qui aura lieu à <span style="color:#F75100;">Langeac</span></p>
+         </a>
+       </div>
+     </div>
+     <br>
+   </div>
+   <% end %>
+ </div>
+</div>
+</div>
+
+
+
+<!-- Lots -->
+
+<div class="lot-wrapper d-flex justify-content-center align-items-center" id="lots">
+  <div class="lot">
+    <h2><span style="border-bottom: 2px solid #F75100;">20 000€ de lots</span> à gagner</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi fugiat, maiores ducimus. Suscipit qui unde ut at, labore itaque neque aliquid cupiditate dignissimos asperiores esse, porro laborum debitis non hic.</h3>
+    <a href="" class="btn btn-orange-white">Voir les lots</a>
+  </div>
+</div>
+
+<!-- Avis Client -->
+
+<div class="avis-wrapper">
+  <div class="cyclo" id="about">
+    <h2><span style="border-bottom: 2px solid #F75100;">Avis</span> de cyclosportfs</h2>
+    <h3>Ils ont déjà fait le challenge assurances vélo en 2017</h3>
+  </div>
+
+  <div class="avis">
+    <div class="container">
+      <div class="row">
+        <% @recommandations.each do |recommandation| %>
+        <div class="avis-membre div col-sm-3">
+          <%= image_tag "header-slide1.jpg", class: "rounded-circle" %>
+          <h4>Christian Dauphin</h4>
+          <h5><%= recommandation.name %></h5>
+          <p>Salut c'est kiki</p>
+        </div>
+        <br>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Inscription -->
+
+<!-- Marques -->
+
+<div class="company-wrapper">
+  <div class="company-text">
+    <h2><span style="border-bottom: 2px solid #F75100;">Les marques</span> qui vous récompensent</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi fugiat, maiores ducimus. Suscipit qui unde ut at, labore itaque neque aliquid cupiditate dignissimos asperiores esse, porro laborum debitis non hic.</h3>
+  </div>
+  <div class="container">
+    <div class="row">
+      <% @marques.each do |marque| %>
+      <div class="col-md-2 col-sm-3 col-xs-4">
+        <div class="company-img">
+          <img class="img-company img-reponsive" src="<%= image_path  marque.logo %>" alt="">
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,2 @@
+class Recomandation < ApplicationRecord
+end

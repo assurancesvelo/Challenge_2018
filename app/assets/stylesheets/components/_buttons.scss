@@ -1,0 +1,49 @@
+.btn-orange{
+  color: white;
+  background-color: $orange;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  text-transform: uppercase;
+}
+
+.btn-orange-lg{
+  color: white;
+  background-color: $orange;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  &:hover{
+    color: white;
+    opacity: 0.9;
+  }
+}
+
+.btn-white-border{
+  background-color: transparent;
+  color:white;
+  border: white 1px solid;
+  border-radius:2px;
+  text-transform: uppercase;
+  &:hover {
+   color: $orange;
+   border: $orange 1px solid;
+ }
+}
+
+.btn-orange-white{
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-top: 30px;
+  border: $orange 2px solid;
+  text-transform: uppercase;
+  &:hover {
+   color: $orange;
+ }
+}

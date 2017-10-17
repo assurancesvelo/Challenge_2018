@@ -1,0 +1,48 @@
+.card-cyclo{
+  text-align: center;
+  h4{
+    padding-bottom: 15px;
+    border-bottom: solid 1px $orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: $base-font;
+    color:$gray-dark;
+  }
+
+  p{
+    color:$gray-medium;
+    font-size: 16px;
+    font-family: $header-font;
+    font-style: italic;
+  }
+  .card-block-cyclo{
+  padding:1em;
+}
+}
+
+.cyclo-hover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: $orange;
+}
+
+.cyclo-hover:hover{
+  opacity: 0.8;
+}
+
+.cyclo-hover-content{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
