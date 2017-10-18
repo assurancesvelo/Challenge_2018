@@ -38,4 +38,9 @@ Marque.create!(logo:'logo-ptitvelo.png', url: ' https://ptitvelo.com/')
 
 Lot.destroy_all
 
-Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'10% de réduction', recompense:'pour les participants de la jaques guoin')
+Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
+Lot.create!(image:'lot-onenergy.jpg', brand:'logo-square-onenergy.jpg', description:'30% de réduction', recompense:'pour les participants de la Morvandelle')
+Lot.create!(image:'lot-embrocation.jpg', brand:'logo-square-embrocation.jpg', description:'100 crème à gagner', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-pedaleur.jpg', brand:'logo-square-pedaleur.jpg', description:'8 Box à gagner', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-ptitvelo.jpg', brand:'logo-square-ptitvelo.jpg', description:'10 maillots à gagner', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-natsup.jpg', brand:'logo-square-natsup.jpg', description:'20 compléments alimentaires à gagner', recompense:'pour les leaders de chaque catégorie')

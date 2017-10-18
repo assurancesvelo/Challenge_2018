@@ -9,16 +9,17 @@
 <div class="lot-inside-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-sm-3">
+      <% @lots.each do |lot| %>
+      <div class="col-sm-4 lot-inside-row-padding">
         <div class="card" style="width: 20rem;">
           <div class="lot-brand-img">
-            <img  src="<%= image_path "header-slide1.jpg" %>" alt="">
+            <img  src="<%= image_path lot.brand %>" alt="">
           </div>
-          <img class="card-img-top" src="<%= image_path "header-slide2.jpg" %>" alt="Card image cap">
+          <img class="card-img-top" src="<%= image_path lot.image %>" alt="Card image cap">
           <div class="card-block d-flex align-items-center">
             <div class="lot-inside-card-text">
               <div class="lot-inside-description">
-                <p>10% de reduction sur la vitaline</p>
+                <p>10% de reduction sur la vitaline  </p>
               </div>
               <div class="lot-inside-recompense d-flex flex-row">
                 <p class="p-2">Pour les participants de la Jacques Gouin</p>
@@ -28,6 +29,7 @@
           </div>
         </div>
       </div>
+      <% end %>
     </div>
   </div>
 </div>
