@@ -1,9 +1,9 @@
-.lot-header-image{
-  height: 115px;
-  background-color: $gray-dark;
+.lot-inside-header-image{
+  height: 230px;
+  border-bottom: solid $orange 1px;
 }
 
-.lot-text-inside{
+.lot-inside-text{
   text-align: center;
   padding-top: 4em;
   padding-bottom: 4em;
@@ -23,35 +23,51 @@
   }
 }
 
-.lot-card{
+.lot-inside-wrapper{
+  padding-top: 2em;
+  padding-bottom: 2em;
   text-align: center;
-  height: 400px;
-  width: 300px;
-  .lot-card-img-top{
-    height:200px;
-  }
-  .lot-card-block{
-    border: solid red 2px;
-    height: 100%;
-    .card-blok-inside{
-      padding-right:1em;
-      padding-left:1em;
-      h4{
-        color: $gray-dark !important;
-        font-family:$base-font !important;
-        font-style: 15px !important;
-        font-weight: bold !important;
-      }
-      h5{
-        color: $gray-dark !important;
-        font-family:$header-font !important;
-        font-style: 8px !important;
-      }
-      p{
-        color: $orange !important;
-        font-family:$header-font !important;
-        font-style: 8px !important;
-      }
+}
+
+.lot-inside-card-text{
+  padding: 3em 2em 1em 2em;
+  .lot-inside-description{
+    border-bottom: solid 1px $orange;
+    p{
+      font-style: $header-font;
+      font-size: 15px;
     }
   }
+  .lot-inside-recompense{
+    padding-top: 1em;
+    p{
+      color: $orange;
+      font-style: $header-font;
+      font-size: 10px;
+    }
+    i{
+      color: $orange;
+      font-size: 20px;
+    }
+  }
+}
+
+.lot-inside-card-img-top{
+  position: relative;
+  z-index: 0;
+}
+
+.lot-brand-img{
+  width: 100%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  top: 140px;
+img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px -6px rgba(0,0,0,.3);
+}
 }

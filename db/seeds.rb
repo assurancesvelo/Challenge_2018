@@ -35,3 +35,7 @@ Marque.create!(logo:'logo-natsup.png', url: ' http://www.nats-up.com/')
 Marque.create!(logo:'logo-onenergy.png', url: ' https://www.on-energy.net/')
 Marque.create!(logo:'logo-pedaleur.png', url: ' https://www.pedaleur.fr/')
 Marque.create!(logo:'logo-ptitvelo.png', url: ' https://ptitvelo.com/')
+
+Lot.destroy_all
+
+Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'10% de réduction', recompense:'pour les participants de la jaques guoin')

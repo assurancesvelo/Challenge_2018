@@ -1,26 +1,34 @@
-<div class="lot-header-image">
+<div class="lot-inside-header-image" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.05) 50%), url('<%= image_path "header-slide2.jpg" %>');">
 </div>
 
-<div class="lot-text-inside">
+<div class="lot-inside-text">
   <h2><span style="border-bottom: 2px solid #F75100;">Les marques</span> qui vous récompensent</h2>
   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi fugiat, maiores ducimus. Suscipit qui unde ut at, labore itaque neque aliquid cupiditate dignissimos asperiores esse, porro laborum debitis non hic.</h3>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card lot-card">
-        <img class="card-img-top lot-card-img-top img-reponsive" src="<%= image_path "header-slide2.jpg" %>" alt="Card image cap">
-        <div class="lot-card-block d-flex align-items-center">
-          <div class="card-block card-blok-inside">
-            <h4>Code promo 10%</h4>
-            <h5>10% de réductions sur toute la boutique JBL</h5>
-            <br>
-            <p>Lot disponible à la pierre chany</p>
+<div class="lot-inside-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" style="width: 20rem;">
+          <div class="lot-brand-img">
+            <img  src="<%= image_path "header-slide1.jpg" %>" alt="">
+          </div>
+          <img class="card-img-top" src="<%= image_path "header-slide2.jpg" %>" alt="Card image cap">
+          <div class="card-block d-flex align-items-center">
+            <div class="lot-inside-card-text">
+              <div class="lot-inside-description">
+                <p>10% de reduction sur la vitaline</p>
+              </div>
+              <div class="lot-inside-recompense d-flex flex-row">
+                <p class="p-2">Pour les participants de la Jacques Gouin</p>
+                <p class="p-2"><i class="fa fa-bolt" aria-hidden="true"></i></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <br>
     </div>
   </div>
 </div>
+
