@@ -35,9 +35,11 @@ Marque.create!(logo:'logo-natsup.png', url: ' http://www.nats-up.com/')
 Marque.create!(logo:'logo-onenergy.png', url: ' https://www.on-energy.net/')
 Marque.create!(logo:'logo-pedaleur.png', url: ' https://www.pedaleur.fr/')
 Marque.create!(logo:'logo-ptitvelo.png', url: ' https://ptitvelo.com/')
+Marque.create!(logo:'logo-smarthalo.png', url: 'https://www.smarthalo.bike/fr/')
 
 Lot.destroy_all
 
+Lot.create!(image:'lot-smarthalo.jpg', brand:'logo-square-smarthalo.jpg', description:'1 kit Smarthalo', recompense:' pour les leader du Challenge')
 Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
 Lot.create!(image:'lot-onenergy.jpg', brand:'logo-square-onenergy.jpg', description:'30% de réduction', recompense:'pour les participants de la Morvandelle')
 Lot.create!(image:'lot-embrocation.jpg', brand:'logo-square-embrocation.jpg', description:'100 crèmes', recompense:'pour les leaders de chaque catégorie')

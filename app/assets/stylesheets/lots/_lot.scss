@@ -37,6 +37,7 @@
 
 .lot-inside-card-text{
   padding: 3em 2em 1em 2em;
+  width: 100%;
   .lot-inside-description{
     border-bottom: solid 1px $orange;
     p{
@@ -46,6 +47,7 @@
   }
   .lot-inside-recompense{
     padding-top: 1em;
+    width: 100%;
     p{
       color: $orange;
       font-style: $header-font;
@@ -58,10 +60,12 @@
   }
 }
 
+
 .lot-inside-card-img-top{
   position: relative;
   z-index: 0;
 }
+
 
 .lot-brand-img{
   width: 100%;
