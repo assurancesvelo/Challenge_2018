@@ -21,21 +21,20 @@
 // Change header Text
 
 
-var quotes = [
-"VTT",
-"Vélo de course",
-"Vélo électrique "
-];
+// var quotes = [
+// "c’est gratuit ",
+// "soit récompensé à chaque cyclosportive "
+// ];
 
-var i = 0;
+// var i = 0;
 
-setInterval(function() {
-  $("#textsheader").html(quotes[i]);
-  if (i == quotes.length-1)
-    i=0;
-  else
-    i++;
-}, 3 * 1000);
+// setInterval(function() {
+//   $("#textsheader").html(quotes[i]);
+//   if (i == quotes.length-1)
+//     i=0;
+//   else
+//     i++;
+// }, 3 * 1000);
 
 
 // ScrollTrigger fonction

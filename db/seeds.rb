@@ -16,7 +16,7 @@ Cyclo.create!(etape:'Etape 12',name: 'Les Monts de l\'auxois', photo: 'photo-cyc
 Recomandation.destroy_all
 
 Recomandation.create!(name: 'Simon Yves', photo: 'recommandation-simon-yves.png', statut: 'Leader Challenge 2017', view:' Je suis complètement satisfait. Parmi tous les challenges que j’ai pu faire dans ma carrière c’est du jamais vu ! Je dirais même que c’était Noël avant l’heure.')
-Recomandation.create!(name: 'Jean-Labussière', photo: 'recommandation-jean-luc-labuissiere.png', statut: 'Second de la catégorie 40-49 ans', view:' Noël en octobre??? Oui, c\'est possible.. Les lots que j’ai reçus me permettent de démarrer la prochaine saison bien équipé et motivé.')
+Recomandation.create!(name: 'Jean-Luc Labussière', photo: 'recommandation-jean-luc-labuissiere.png', statut: 'Second de la catégorie 40-49 ans', view:' Noël en octobre??? Oui, c\'est possible.. Les lots que j’ai reçus me permettent de démarrer la prochaine saison bien équipé et motivé.')
 Recomandation.create!(name: 'Christian Dauphin', photo: 'recommandation-christian-dauphin.png', statut: 'Organisateur de la Pierre Chany', view:'La remise des prix du Challenge au vélodrome, c’est du jamais vu !')
 
 Marque.destroy_all
@@ -40,7 +40,7 @@ Lot.destroy_all
 
 Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
 Lot.create!(image:'lot-onenergy.jpg', brand:'logo-square-onenergy.jpg', description:'30% de réduction', recompense:'pour les participants de la Morvandelle')
-Lot.create!(image:'lot-embrocation.jpg', brand:'logo-square-embrocation.jpg', description:'100 crème à gagner', recompense:'pour les leaders de chaque catégorie')
-Lot.create!(image:'lot-pedaleur.jpg', brand:'logo-square-pedaleur.jpg', description:'8 Box à gagner', recompense:'pour les leaders de chaque catégorie')
-Lot.create!(image:'lot-ptitvelo.jpg', brand:'logo-square-ptitvelo.jpg', description:'10 maillots à gagner', recompense:'pour les leaders de chaque catégorie')
-Lot.create!(image:'lot-natsup.jpg', brand:'logo-square-natsup.jpg', description:'20 compléments alimentaires à gagner', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-embrocation.jpg', brand:'logo-square-embrocation.jpg', description:'100 crèmes', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-pedaleur.jpg', brand:'logo-square-pedaleur.jpg', description:'8 Box', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-ptitvelo.jpg', brand:'logo-square-ptitvelo.jpg', description:'10 maillots', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-natsup.jpg', brand:'logo-square-natsup.jpg', description:'20 compléments alimentaires', recompense:'pour les leaders de chaque catégorie')
