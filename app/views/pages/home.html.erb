@@ -44,15 +44,15 @@
 <div class="cyclo-wrapper" id="epreuves">
  <div class="cyclo" id="about">
    <h2><span style="border-bottom: 2px solid #F75100;">Cyclospostives </span>partenaires</h2>
-   <h3>11 cyclosportives | 1768 km | 15.000 m de dénivelé | 20.000 participants</h3>
+   <h3>16 cyclosportives | 2365 km | 15.000 m de dénivelé | 20.000 participants</h3>
  </div>
 
  <div class="container">
    <div class="row cyclo-row-padding">
     <% @cyclos.each do |cyclo| %>
-    <div class="col-xs-12 col-sm-4">
+    <div class="col-4 mx-auto">
      <div class="card card-cyclo" style="width: 20rem;">
-       <a href="" class="cyclo-link">
+       <a href="<%= cyclo.url %>" class="cyclo-link" target="_blank" rel="nofollow">
          <div class="cyclo-hover">
            <div class="cyclo-hover-content">
              <i class="fa fa-plus fa-3x"></i>
@@ -65,7 +65,13 @@
             <br><br>
             lieu : <span style="color:#F75100;"><%= cyclo.address %></span>
             <br>
-            date : <span style="color:#F75100;"><%= cyclo.date %></p>
+            date : <span style="color:#F75100;"><%= cyclo.date %></span>
+            <br>
+            distance : <span style="color:#F75100;"><%= cyclo.distance %></span>
+            <br>
+            <br>
+            Type d'épreuve : <span class="badge badge-primary"><%= cyclo.velocourse %></span> <span class="badge badge-success"><%= cyclo.vae %></span>
+          </p>
          </a>
        </div>
      </div>
@@ -75,6 +81,8 @@
  </div>
 </div>
 </div>
+
+
 
 
 
