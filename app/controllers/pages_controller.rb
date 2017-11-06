@@ -4,4 +4,6 @@ class PagesController < ApplicationController
     @recommandations = Recomandation.all
     @marques = Marque.all
   end
+  def reglement
+  end
 end
