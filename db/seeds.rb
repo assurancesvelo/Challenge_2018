@@ -16,6 +16,7 @@ Cyclo.create!(etape:'Etape 13', name: 'La Campilaro Pyrénées', photo: 'photo-c
 Cyclo.create!(etape:'Etape 14', name: 'La Pierre Chany', photo: 'photo-cyclo14.jpg', date: '04/08/2018', address: 'Langeac', distance:'142km', url:' http://www.lapierrechany-43.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 15', name: 'La Jean François Bernard', photo: 'photo-cyclo15.jpg', date: '19/08/2018', address: 'Corbigny', distance:'142km', url:' http://jeff.cyclosportive.pagesperso-orange.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 16', name: 'Les Monts de l‘Auxois', photo: 'photo-cyclo16.jpg', date: '09/09/2018', address: 'Semur-en-Auxois', distance:'130km', url:' https://les-monts-de-lauxois-50.webself.net/accueil', vae:'', velocourse:'Vélo de Course')
+Cyclo.create!(etape:'Etape 17', name: 'La Guadeloupéenne', photo: 'photo-cyclo17.jpg', date: '08/10/2018', address: 'Pointe a Pitre', distance:'202km', url:'http://www.laguadeloupeenne.org/', vae:'', velocourse:'Vélo de Course')
 
 
 Recomandation.destroy_all
