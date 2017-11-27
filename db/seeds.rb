@@ -56,7 +56,7 @@ Lot.destroy_all
 
 
 Lot.create!(image:'lot-velodrome.jpg', brand:'logo-square-velodrome.jpg', description:'10 Baptêmes Piste', recompense:' pour les leaders du Challenge')
-Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.png', description:'1 stage à Sant Feliu de Guixols (Es17) en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.png', description:'1 stage à Sant Feliu de Guixols en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-smarthalo.jpg', brand:'logo-square-smarthalo.jpg', description:'1 kit Smarthalo', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-kronos.jpg', brand:'logo-square-kronos.jpg', description:'1 plateau Kronos', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
