@@ -6,11 +6,11 @@ Cyclo.create!(etape:'Etape 3', name: 'La Morvandelle', photo: 'photo-cyclo3.jpg'
 Cyclo.create!(etape:'Etape 4', name: 'La Velostar', photo: 'photo-cyclo4.jpg', date: '01/05/2018', address: 'Breuillet', distance:'135km', url:' http://velostar91.blogspot.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 5', name: 'La Mercan’Tour Ladies', photo: 'photo-cyclo5.jpg', date: '06/05/2018', address: 'La Gaude', distance:'116km', url:' http://lamercantourcyclo.com/index.php/fr/home/', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 6', name: 'La Gaillarde de Carvalho', photo: 'photo-cyclo6.jpg', date: '13/05/2018', address: 'Brive La Gaillarde', distance:'139km', url:' https://www.lagaillardedecarvalho.com/', vae:'Vae', velocourse:'Vélo de Course')
-Cyclo.create!(etape:'Etape 7', name: 'Les Boucles de la Marne', photo: 'photo-cyclo7.jpg', date: '27/05/2018', address: 'Montmirail', distance:'168km', url:' http://www.bouclesdelamarne.com/', vae:'', velocourse:'Vélo de Course')
-Cyclo.create!(etape:'Etape 8', name: 'La Claudio Chiapucci', photo: 'photo-cyclo8.jpg', date: '02/06/2018', address: 'Arnay-le-Duc', distance:'156km', url:' http://www.cyclo-claudiochiappucci.fr/course_cyclo.html', vae:'', velocourse:'Vélo de Course')
+Cyclo.create!(etape:'Etape 7', name: 'Les Boucles de la Marne', photo: 'photo-cyclo7.jpg', date: '27/05/2018', address: 'Sezanne', distance:'168km', url:' http://www.bouclesdelamarne.com/', vae:'', velocourse:'Vélo de Course')
+Cyclo.create!(etape:'Etape 8', name: 'La Claudio Chiappucci', photo: 'photo-cyclo8.jpg', date: '02/06/2018', address: 'Arnay-le-Duc', distance:'156km', url:' http://www.cyclo-claudiochiappucci.fr/course_cyclo.html', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 9', name: 'La Marmotte d’Olt', photo: 'photo-cyclo9.jpg', date: '11/06/2018', address: 'Saint Geniez d’Olt', distance:'156km', url:' http://www.marmottedolt.fr/', vae:'Vae', velocourse:'')
 Cyclo.create!(etape:'Etape 10', name: 'La Mercan’Tour Bonette', photo: 'photo-cyclo10.jpg', date: '17/06/2018', address: 'Guillaumes', distance:'190km', url:' http://lamercantourcyclo.com/index.php/fr/home/', vae:'', velocourse:'Vélo de Course')
-Cyclo.create!(etape:'Etape 11', name: 'Les Copains Cyfac', photo: 'photo-cyclo11.jpg', date: '29/06/2018', address: 'Ambert', distance:'155km', url:' http://www.cyclolescopains.fr/', vae:'Vae', velocourse:'Vélo de Course')
+Cyclo.create!(etape:'Etape 11', name: 'Les Copains Cyfac', photo: 'photo-cyclo11.jpg', date: '01/07/2018', address: 'Ambert', distance:'155km', url:' http://www.cyclolescopains.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 12', name: 'La Perigordine', photo: 'photo-cyclo12.jpg', date: '08/07/2018', address: 'Montignac-Lascaux', distance:'134km', url:' https://www.laperigordine-cyclo24.com/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 13', name: 'La Campilaro Pyrénées', photo: 'photo-cyclo13.jpg', date: '20/07/2018', address: 'Luchon', distance:'370km', url:' http://www.campilaro.com/', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 14', name: 'La Pierre Chany', photo: 'photo-cyclo14.jpg', date: '04/08/2018', address: 'Langeac', distance:'142km', url:' http://www.lapierrechany-43.fr/', vae:'Vae', velocourse:'Vélo de Course')
@@ -49,6 +49,7 @@ Marque.create!(logo:'logo-square-velodrome.png', url: ' http://www.velodrome-nat
 Marque.create!(logo:'logo-square-kronos.png', url: ' http://www.faulcon.fr/')
 Marque.create!(logo:'logo-square-assurancesvelo.png', url: ' http://www.assurancesvelo.com/')
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
+Marque.create!(logo:'logo-square-ttlv.jpg', url: 'http://dso-sports.com/')
 
 
 
@@ -56,7 +57,8 @@ Lot.destroy_all
 
 
 Lot.create!(image:'lot-velodrome.jpg', brand:'logo-square-velodrome.jpg', description:'10 Baptêmes Piste', recompense:' pour les leaders du Challenge')
-Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.png', description:'1 stage à Sant Feliu de Guixols en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-ttlv.jpg', brand:'logo-square-ttlv.jpg', description:'Reductions sur les stages', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.jpg', description:'1 stage à Sant Feliu de Guixols en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-smarthalo.jpg', brand:'logo-square-smarthalo.jpg', description:'1 kit Smarthalo', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-kronos.jpg', brand:'logo-square-kronos.jpg', description:'1 plateau Kronos', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
