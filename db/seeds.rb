@@ -26,6 +26,7 @@ Recomandation.create!(name: 'Christian Dauphin', photo: 'recommandation-christia
 
 Marque.destroy_all
 
+Marque.create!(logo:'logo-square-bc.jpg', url: 'http://bikenconnect.com/')
 Marque.create!(logo:'logo-vitaline.png', url: 'http://www.vitaline.fr')
 Marque.create!(logo:'logo-allbikers.png', url: ' https://all-bikers.com')
 Marque.create!(logo:'logo-asmodee.png', url: ' https://fr.asmodee.com/fr/index')
@@ -49,7 +50,7 @@ Marque.create!(logo:'logo-square-kronos.png', url: ' http://www.faulcon.fr/')
 Marque.create!(logo:'logo-square-assurancesvelo.png', url: ' http://www.assurancesvelo.com/')
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
 Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
-Marque.create!(logo:'logo-square-vince.jpg', url: '')
+Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.fr/')
 
 
 
