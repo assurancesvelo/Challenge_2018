@@ -48,7 +48,10 @@ Marque.create!(logo:'logo-square-velodrome.png', url: ' http://www.velodrome-nat
 Marque.create!(logo:'logo-square-kronos.png', url: ' http://www.faulcon.fr/')
 Marque.create!(logo:'logo-square-assurancesvelo.png', url: ' http://www.assurancesvelo.com/')
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
-Marque.create!(logo:'logo-square-ttlv.jpg', url: 'http://dso-sports.com/')
+Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
+Marque.create!(logo:'logo-square-vince.jpg', url: '')
+
+
 
 
 
@@ -78,6 +81,7 @@ Lot.create!(image:'lot-lcl.jpg', brand:'logo-square-lcl.png', description:'50 sa
 Lot.create!(image:'lot-cyclelaurent.jpg', brand:'logo-square-cyclelaurent.png', description:'1 cadre FSC Tornado', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-cyclelegreves.jpg', brand:'logo-square-cyclelegreves.jpg', description:'5 Paires de Chaussures', recompense:' pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-cyclelegreves2.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 casque Rapido', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-coque.jpg', brand:'logo-square-vince.jpg', description:'10 coques samartphone', recompense:' pour le leader du Challenge')
 
 
 
