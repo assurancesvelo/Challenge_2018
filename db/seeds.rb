@@ -85,9 +85,9 @@ Lot.create!(image:'lot-cyclelegreves2.jpg', brand:'logo-square-cyclelegreves.jpg
 Lot.create!(image:'lot-cyclelegreves3.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 casque Rapido', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-cyclelegreves4.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 casque Rapido', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-cyclelegreves5.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 casque Rapido', recompense:' pour le leader du Challenge')
-Lot.create!(image:'lot-coque.jpg', brand:'logo-square-vince.jpg', description:'10 coques samartphone', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-coque.jpg', brand:'logo-square-vince.jpg', description:'10 coques smartphone', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-baristea1.jpg', brand:'logo-baristea.png', description:'50 boites de 10 capsules', recompense:' pour le leader du Challenge')
-Lot.create!(image:'lot-baristea2.jpg', brand:'logo-baristea.png', description:'20 boutielles de rhum', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-baristea2.jpg', brand:'logo-baristea.png', description:'20 bouteilles de rhum', recompense:' pour le leader du Challenge')
 
 
 
