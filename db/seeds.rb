@@ -51,6 +51,7 @@ Marque.create!(logo:'logo-square-assurancesvelo.png', url: ' http://www.assuranc
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
 Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
 Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.fr/')
+Marque.create!(logo:'novaedifis.png', url: 'http://www.novaedifis-suresnes.fr/')
 
 
 
