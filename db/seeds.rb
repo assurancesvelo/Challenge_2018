@@ -27,31 +27,31 @@ Recomandation.create!(name: 'Christian Dauphin', photo: 'recommandation-christia
 Marque.destroy_all
 
 Marque.create!(logo:'logo-square-bc.jpg', url: 'http://bikenconnect.com/')
-Marque.create!(logo:'logo-vitaline.png', url: 'http://www.vitaline.fr')
-Marque.create!(logo:'logo-allbikers.png', url: ' https://all-bikers.com')
-Marque.create!(logo:'logo-asmodee.png', url: ' https://fr.asmodee.com/fr/index')
+Marque.create!(logo:'logo-topvelo.jpg', url: 'https://www.topvelo.fr/')
 Marque.create!(logo:'logo-asterion.png', url: ' http://www.asterion-wheels.com')
+Marque.create!(logo:'logo-goodicom.jpg', url: 'http://www.goodicom.fr/')
+Marque.create!(logo:'logo-dmtex.jpg', url: 'http://bikenconnect.com/')
+Marque.create!(logo:'logo-vitaline.png', url: 'http://www.vitaline.fr')
+Marque.create!(logo:'logo-asmodee.png', url: ' https://fr.asmodee.com/fr/index')
+Marque.create!(logo:'logo-kronos.png', url: ' http://www.faulcon.fr/')
 Marque.create!(logo:'logo-baristea.png', url: ' http://www.tricoche-spirits.com/index.php/baristea-2')
 Marque.create!(logo:'logo-embrocation.png', url: ' http://www.embrocationsiamoise.com/')
 Marque.create!(logo:'logo-faguo.png', url: ' https://www.faguo-store.com/fr/')
 Marque.create!(logo:'logo-gasp.png', url: ' https://www.gaspcycling.com/')
-Marque.create!(logo:'logo-jbl.png', url: ' https://fr.jbl.com/')
-Marque.create!(logo:'logo-kronos.png', url: ' http://www.faulcon.fr/')
 Marque.create!(logo:'logo-natsup.png', url: ' http://www.nats-up.com/')
 Marque.create!(logo:'logo-onenergy.png', url: ' https://www.on-energy.net/')
 Marque.create!(logo:'logo-pedaleur.png', url: ' https://www.pedaleur.fr/')
 Marque.create!(logo:'logo-ptitvelo.png', url: ' https://ptitvelo.com/')
-Marque.create!(logo:'logo-smarthalo.png', url: 'https://www.smarthalo.bike/fr/')
-Marque.create!(logo:'logo-square-xtorm.png', url: 'https://www.xtorm.eu/fr/home/')
 Marque.create!(logo:'logo-square-cyclelaurent.png', url: ' http://www.cycleslaurent.com/fr/')
 Marque.create!(logo:'logo-square-cyclelegreves.png', url: ' http://team.legreves.free.fr/')
 Marque.create!(logo:'logo-square-velodrome.png', url: ' http://www.velodrome-national.com/')
-Marque.create!(logo:'logo-square-kronos.png', url: ' http://www.faulcon.fr/')
 Marque.create!(logo:'logo-square-assurancesvelo.png', url: ' http://www.assurancesvelo.com/')
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
 Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
 Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.fr/')
 Marque.create!(logo:'logo-square-novaedifis.jpg', url: 'http://www.novaedifis-suresnes.fr/')
+Marque.create!(logo:'logo-allbikers.png', url: ' https://all-bikers.com')
+
 
 
 
@@ -59,12 +59,12 @@ Marque.create!(logo:'logo-square-novaedifis.jpg', url: 'http://www.novaedifis-su
 
 Lot.destroy_all
 
-
+Lot.create!(image:'lot-asterion.jpg', brand:'logo-asterion.png', description:'7 paires de roues Astérion Silver Race', recompense:' pour les leaders du Challenge')
+Lot.create!(image:'lot-topvelo.jpg', brand:'logo-topvelo.jpg', description:'20 abonnements', recompense:' pour les leaders du Challenge')
 Lot.create!(image:'lot-velodrome.jpg', brand:'logo-square-velodrome.jpg', description:'10 Baptêmes Piste', recompense:' pour les leaders du Challenge')
-Lot.create!(image:'lot-ttlv.jpg', brand:'logo-square-ttlv.jpg', description:'Reductions sur les stages', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.jpg', description:'1 stage à Sant Feliu de Guixols en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
-Lot.create!(image:'lot-smarthalo.jpg', brand:'logo-square-smarthalo.jpg', description:'1 kit Smarthalo', recompense:' pour le leader du Challenge')
-Lot.create!(image:'lot-kronos.jpg', brand:'logo-square-kronos.jpg', description:'1 plateau Kronos', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-asmode.jpg', brand:'logo-asmodee.png', description:'40 boites de jeux pour enfants', recompense:' pour les leaders du Challenge')
+Lot.create!(image:'lot-kronos.jpg', brand:'logo-square-kronos.jpg', description:'8 plateau Kronos', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
 Lot.create!(image:'lot-vitaline2.jpg', brand:'logo-square-vitaline.jpg', description:'Dotations de nombreuses boissons energisante', recompense:'pour les leaders de chaque catégories')
 Lot.create!(image:'lot-onenergy.jpg', brand:'logo-square-onenergy.jpg', description:'30% de réduction', recompense:'pour les participants de la Morvandelle')
@@ -74,14 +74,17 @@ Lot.create!(image:'lot-onenergy4.jpg', brand:'logo-square-onenergy.jpg', descrip
 Lot.create!(image:'lot-embrocation.jpg', brand:'logo-square-embrocation.jpg', description:'100 crèmes', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-gants.jpg', brand:'logo-square-assurancesvelo.jpg', description:'20 paires de gants', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-chaussettes.jpg', brand:'logo-square-assurancesvelo.jpg', description:'20 paires de chaussettes', recompense:'pour les leaders de chaque catégorie')
-Lot.create!(image:'lot-pedaleur.jpg', brand:'logo-square-pedaleur.jpg', description:'8 Box', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-pedaleur.jpg', brand:'logo-square-pedaleur.jpg', description:'8 box pedaleur', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-ptitvelo.jpg', brand:'logo-square-ptitvelo.jpg', description:'10 maillots', recompense:'pour les leaders de chaque catégorie')
-Lot.create!(image:'lot-natsup.jpg', brand:'logo-square-natsup.jpg', description:'20 compléments alimentaires', recompense:'pour les leaders de chaque catégorie')
-Lot.create!(image:'lot-xtorm.jpg', brand:'logo-square-xtorm.jpg', description:'-20% sur leur site', recompense:'pour les participants de la Campilaro Pyrénées')
+Lot.create!(image:'lot-natsup.jpg', brand:'logo-square-natsup.jpg', description:'reductions sur le site', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-faguo.jpg', brand:'logo-square-faguo.jpg', description:'Nombreux lots à gagner', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-lcl.jpg', brand:'logo-square-lcl.png', description:'50 sacs', recompense:'pour les leaders de chaque catégorie')
+
 Lot.create!(image:'lot-cyclelaurent.jpg', brand:'logo-square-cyclelaurent.png', description:'1 cadre FSC Tornado', recompense:' pour le leader du Challenge')
-Lot.create!(image:'lot-cyclelegreves.jpg', brand:'logo-square-cyclelegreves.jpg', description:'5 Paires de Chaussures', recompense:' pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-cyclelaurent2.jpg', brand:'logo-square-cyclelaurent.png', description:'5 casques Mavic', recompense:' pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-cyclelegreves.jpg', brand:'logo-square-cyclelaurent.png', description:'10 Paires de Chaussures', recompense:' pour les leaders de chaque catégorie')
+
+
 Lot.create!(image:'lot-cyclelegreves2.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 casque Rapido', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-cyclelegreves3.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 paire de chaussures Pearl Izumi', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-cyclelegreves4.jpg', brand:'logo-square-cyclelegreves.jpg', description:'1 paire de chaussures Shimano', recompense:' pour le leader du Challenge')
@@ -89,6 +92,8 @@ Lot.create!(image:'lot-cyclelegreves5.jpg', brand:'logo-square-cyclelegreves.jpg
 Lot.create!(image:'lot-coque.jpg', brand:'logo-square-vince.jpg', description:'10 coques smartphone', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-baristea1.jpg', brand:'logo-baristea.png', description:'50 boites de 10 capsules', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-baristea2.jpg', brand:'logo-baristea.png', description:'20 bouteilles de rhum', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-ttlv.jpg', brand:'logo-square-ttlv.jpg', description:'Reductions sur les stages', recompense:'Tous les participants du challenge')
+
 
 
 
