@@ -64,7 +64,7 @@ Lot.create!(image:'lot-topvelo.jpg', brand:'logo-topvelo.jpg', description:'20 a
 Lot.create!(image:'lot-velodrome.jpg', brand:'logo-square-velodrome.jpg', description:'10 Baptêmes Piste', recompense:' pour les leaders du Challenge')
 Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.jpg', description:'1 stage à Sant Feliu de Guixols en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-asmode.jpg', brand:'logo-asmodee.png', description:'40 boites de jeux pour enfants', recompense:' pour les leaders du Challenge')
-Lot.create!(image:'lot-kronos.jpg', brand:'logo-square-kronos.jpg', description:'8 plateau Kronos', recompense:' pour le leader du Challenge')
+Lot.create!(image:'lot-kronos.jpg', brand:'logo-kronos.png', description:'8 plateau Kronos', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-vitaline.jpg', brand:'logo-square-vitaline.jpg', description:'20% de réduction', recompense:'pour les participants de la Jacques Guoin')
 Lot.create!(image:'lot-vitaline2.jpg', brand:'logo-square-vitaline.jpg', description:'Dotations de nombreuses boissons energisante', recompense:'pour les leaders de chaque catégories')
 Lot.create!(image:'lot-onenergy.jpg', brand:'logo-square-onenergy.jpg', description:'30% de réduction', recompense:'pour les participants de la Morvandelle')
