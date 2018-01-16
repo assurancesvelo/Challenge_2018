@@ -52,7 +52,8 @@ Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
 Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
 Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.fr/')
 Marque.create!(logo:'logo-square-novaedifis.jpg', url: 'http://www.novaedifis-suresnes.fr/')
-Marque.create!(logo:'logo-allbikers.png', url: ' https://all-bikers.com')
+Marque.create!(logo:'logo-gtpartners.jpg', url: 'WWW.GROUPE-TOLONI.COM')
+Marque.create!(logo:'logo-allbikers.png', url: 'https://all-bikers.com')
 
 
 
