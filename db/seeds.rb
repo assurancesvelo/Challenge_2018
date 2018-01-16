@@ -84,6 +84,8 @@ Lot.create!(image:'lot-gants.jpg', brand:'logo-square-assurancesvelo.jpg', descr
 Lot.create!(image:'lot-chaussettes.jpg', brand:'logo-square-assurancesvelo.jpg', description:'20 paires de chaussettes', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-pedaleur.jpg', brand:'logo-square-pedaleur.jpg', description:'8 box pedaleur', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-ptitvelo.jpg', brand:'logo-square-ptitvelo.jpg', description:'10 maillots', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-gt1.jpg', brand:'logo-gtpartners.jpg', description:'4 Smartbox sensations et aventures ', recompense:'pour les leaders de chaque catégorie')
+Lot.create!(image:'lot-gt2.jpg', brand:'logo-gtpartners.jpg', description:'Casque Suomy', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-natsup.jpg', brand:'logo-square-natsup.jpg', description:'reductions sur le site', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-faguo.jpg', brand:'logo-square-faguo.jpg', description:'Nombreux lots à gagner', recompense:'pour les leaders de chaque catégorie')
 Lot.create!(image:'lot-lcl.jpg', brand:'logo-square-lcl.png', description:'50 sacs', recompense:'pour les leaders de chaque catégorie')
