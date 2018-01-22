@@ -8,14 +8,14 @@ Cyclo.create!(etape:'Etape 5', name: 'La Gaillarde de Carvalho', photo: 'photo-c
 Cyclo.create!(etape:'Etape 6', name: 'Les Boucles de la Marne', photo: 'photo-cyclo7.jpg', date: '27/05/2018', address: 'Sezanne', distance:'168km', url:' http://www.bouclesdelamarne.com/', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 7', name: 'La Claudio Chiappucci', photo: 'photo-cyclo8.jpg', date: '02/06/2018', address: 'Arnay-le-Duc', distance:'156km', url:' http://www.cyclo-claudiochiappucci.fr/course_cyclo.html', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 8', name: 'La Marmotte d’Olt', photo: 'photo-cyclo9.jpg', date: '3/06/2018', address: 'Saint Geniez d’Olt', distance:'156km', url:' http://www.marmottedolt.fr/', vae:'Vae', velocourse:'')
-Cyclo.create!(etape:'Etape 0', name: 'Mercan’Tour Bonette Café Du Cycliste', photo: 'photo-cyclo10.jpg', date: '17/06/2018', address: 'Guillaumes', distance:'190km', url:' http://lamercantourcyclo.com/index.php/fr/home/', vae:'', velocourse:'Vélo de Course')
+Cyclo.create!(etape:'Etape 9', name: 'Mercan’Tour Bonette Café Du Cycliste', photo: 'photo-cyclo10.jpg', date: '17/06/2018', address: 'Guillaumes', distance:'190km', url:' http://lamercantourcyclo.com/index.php/fr/home/', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 10', name: 'Les Copains Cyfac', photo: 'photo-cyclo11.jpg', date: '01/07/2018', address: 'Ambert', distance:'155km', url:' http://www.cyclolescopains.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 11', name: 'La Perigordine', photo: 'photo-cyclo12.jpg', date: '08/07/2018', address: 'Montignac-Lascaux', distance:'134km', url:' https://www.laperigordine-cyclo24.com/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 12', name: 'La Campilaro Pyrénées', photo: 'photo-cyclo13.jpg', date: '20/07/2018', address: 'Luchon', distance:'370km', url:' http://www.campilaro.com/', vae:'', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 13', name: 'La Pierre Chany', photo: 'photo-cyclo14.jpg', date: '04/08/2018', address: 'Langeac', distance:'142km', url:' http://www.lapierrechany-43.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 14', name: 'La Jean François Bernard', photo: 'photo-cyclo15.jpg', date: '19/08/2018', address: 'Corbigny', distance:'142km', url:' http://jeff.cyclosportive.pagesperso-orange.fr/', vae:'Vae', velocourse:'Vélo de Course')
 Cyclo.create!(etape:'Etape 15', name: 'Les Monts de l‘Auxois', photo: 'photo-cyclo16.jpg', date: '09/09/2018', address: 'Semur-en-Auxois', distance:'130km', url:' https://les-monts-de-lauxois-50.webself.net/accueil', vae:'', velocourse:'Vélo de Course')
-Cyclo.create!(etape:'Etape 16', name: 'La Guadeloupéenne Tour Cyclo', photo: 'photo-cyclo17.jpg', date: '27/10/2018', address: 'Pointe a Pitre', distance:'202km', url:'http://www.laguadeloupeenne.org/', vae:'', velocourse:'Vélo de Course')
+Cyclo.create!(etape:'Etape 16', name: 'La Guadeloupéenne Tour Cyclo', photo: 'photo-cyclo17.jpg', date: '28/10/2018', address: 'Pointe a Pitre', distance:'122km', url:'http://www.laguadeloupeenne.org/', vae:'', velocourse:'Vélo de Course')
 
 
 Recomandation.destroy_all
@@ -54,7 +54,7 @@ Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.f
 Marque.create!(logo:'logo-square-novaedifis.jpg', url: 'http://www.novaedifis-suresnes.fr/')
 Marque.create!(logo:'logo-gtpartners.jpg', url: 'http://www.groupe-toloni.com/')
 Marque.create!(logo:'logo-allbikers.png', url: 'https://all-bikers.com')
-
+Marque.create!(logo:'logo-smoocyclette.jpg', url: 'https://smoocyclette.fr/')
 
 
 
