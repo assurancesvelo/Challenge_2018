@@ -57,6 +57,7 @@ Marque.create!(logo:'logo-gtpartners.jpg', url: 'http://www.groupe-toloni.com/')
 Marque.create!(logo:'logo-allbikers.png', url: 'https://all-bikers.com')
 Marque.create!(logo:'logo-smoocyclette.jpg', url: 'https://smoocyclette.fr/')
 Marque.create!(logo:'logo-braquet-libre.jpg', url: 'https://www.braquetlibre.com/')
+Marque.create!(logo:'logo-roadborn.jpg', url: 'https://www.roadbornwheels.com/')
 
 
 
