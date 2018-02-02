@@ -49,6 +49,7 @@ Marque.create!(logo:'logo-square-cyclelegreves.png', url: 'http://team.legreves.
 Marque.create!(logo:'logo-square-velodrome.png', url: 'http://www.velodrome-national.com/')
 Marque.create!(logo:'logo-square-assurancesvelo.png', url: 'http://www.assurancesvelo.com/')
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
+Marque.create!(logo:'logo-rueduvelo.jpg', url: 'https://www.rueduvelo.com/')
 Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
 Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.fr/')
 Marque.create!(logo:'logo-square-novaedifis.jpg', url: 'http://www.novaedifis-suresnes.fr/')
