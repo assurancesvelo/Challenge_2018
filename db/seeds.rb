@@ -49,6 +49,7 @@ Marque.create!(logo:'logo-square-cyclelegreves.png', url: 'http://team.legreves.
 Marque.create!(logo:'logo-square-velodrome.png', url: 'http://www.velodrome-national.com/')
 Marque.create!(logo:'logo-square-assurancesvelo.png', url: 'http://www.assurancesvelo.com/')
 Marque.create!(logo:'logo-square-dso.png', url: 'http://dso-sports.com/')
+Marque.create!(logo:'logo-roadborn.jpg', url: 'https://www.roadbornwheels.com/')
 Marque.create!(logo:'logo-rueduvelo.jpg', url: 'https://www.rueduvelo.com/')
 Marque.create!(logo:'logo-square-ttlv.jpg', url: '')
 Marque.create!(logo:'logo-square-vince.jpg', url: 'https://www.vincent-richeux.fr/')
@@ -57,7 +58,6 @@ Marque.create!(logo:'logo-gtpartners.jpg', url: 'http://www.groupe-toloni.com/')
 Marque.create!(logo:'logo-allbikers.png', url: 'https://all-bikers.com')
 Marque.create!(logo:'logo-smoocyclette.jpg', url: 'https://smoocyclette.fr/')
 Marque.create!(logo:'logo-braquet-libre.jpg', url: 'https://www.braquetlibre.com/')
-Marque.create!(logo:'logo-roadborn.jpg', url: 'https://www.roadbornwheels.com/')
 
 
 
