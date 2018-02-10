@@ -90,6 +90,10 @@ $('a[href*="#"]')
 
 
   $("#clickChallenge").click(function() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-67395801-6');
     ga('send', 'event', 'button', 'scroll', 'Challenge');
   });
 
