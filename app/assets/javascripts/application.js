@@ -88,5 +88,10 @@ $('a[href*="#"]')
     }
   });
 
+
+  $("#clickChallenge").click(function() {
+    ga('send', 'event', 'button', 'scroll', 'Challenge');
+  });
+
 })(jQuery); // End of use strict
 
