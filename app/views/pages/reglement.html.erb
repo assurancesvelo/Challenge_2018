@@ -1,3 +1,23 @@
+
+<script>
+ (function() {
+   ga('require', 'ecommerce');
+   ga('ecommerce:addTransaction', {
+     'id': '1',
+     'revenue': '40',
+   });
+   ga('ecommerce:addItem', {
+     'id': '1',
+     'name': 'Basket',
+     'category': 'Chaussures',
+     'price': '150',
+     'quantity': '1'
+   });
+   ga('ecommerce:send');
+ })();
+ </script>
+
+
 <div class="lot-inside-header-image" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.05) 50%), url('<%= image_path "header-slide2.jpg" %>');">
 </div>
 
