@@ -90,7 +90,6 @@ $('a[href*="#"]')
 
 
   $("#clickChallenge").click(function() {
-    ga('config', 'UA-67395801-6');
     ga('send', 'event', 'button', 'scroll', 'Challenge');
   });
 
