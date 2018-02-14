@@ -111,7 +111,7 @@ Lot.create!(image:'lot-ryobi2.jpg', brand:'logo-ryobi.jpg', description:'Taille-
 Lot.create!(image:'lot-ryobi3.jpg', brand:'logo-ryobi.jpg', description:'Ponceuse vibrante 1/3 de feuille 200 W et 250W', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-ryobi4.jpg', brand:'logo-ryobi.jpg', description:'Scie circulaire 1600 W + mallette', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-ryobi5.jpg', brand:'logo-ryobi.jpg', description:'Scie sauteuse 600 W + mallette', recompense:'Tous les participants du challenge')
-Lot.create!(image:'lot-ryobi6.jpg', brand:'logo-ryobi.jpg', description:'Ponceuse exantrique 300 W + 5 abrasifs', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi6.jpg', brand:'logo-ryobi.jpg', description:'Ponceuse excentrique 300 W + 5 abrasifs', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-ryobi7.jpg', brand:'logo-ryobi.jpg', description:'2 Perforateurs SDS', recompense:'Tous les participants du challenge')
 
 
