@@ -29,6 +29,7 @@ Marque.destroy_all
 Marque.create!(logo:'logo-square-bc.jpg', url: 'http://bikenconnect.com/')
 Marque.create!(logo:'logo-topvelo.jpg', url: 'https://www.topvelo.fr/')
 Marque.create!(logo:'logo-asterion.png', url: 'http://www.asterion-wheels.com')
+Marque.create!(logo:'logo-ryobi.jpg', url: 'https://fr.ryobitools.eu/')
 Marque.create!(logo:'logo-goodicom.jpg', url: 'http://www.goodicom.fr/')
 Marque.create!(logo:'logo-dmtex.jpg', url: 'http://bikenconnect.com/')
 Marque.create!(logo:'logo-vitaline.png', url: 'http://www.vitaline.fr')
@@ -58,6 +59,7 @@ Marque.create!(logo:'logo-gtpartners.jpg', url: 'http://www.groupe-toloni.com/')
 Marque.create!(logo:'logo-allbikers.png', url: 'https://all-bikers.com')
 Marque.create!(logo:'logo-smoocyclette.jpg', url: 'https://smoocyclette.fr/')
 Marque.create!(logo:'logo-braquet-libre.jpg', url: 'https://www.braquetlibre.com/')
+
 
 
 
@@ -104,6 +106,14 @@ Lot.create!(image:'lot-coque.jpg', brand:'logo-square-vince.jpg', description:'1
 Lot.create!(image:'lot-baristea1.jpg', brand:'logo-baristea.png', description:'50 boites de 10 capsules', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-baristea2.jpg', brand:'logo-baristea.png', description:'20 bouteilles de rhum', recompense:' pour le leader du Challenge')
 Lot.create!(image:'lot-ttlv.jpg', brand:'logo-square-ttlv.jpg', description:'Reductions sur les stages', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi1.jpg', brand:'logo-ryobi.jpg', description:'Perceuse-visseuse à percussion 18 V + coffret', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi2.jpg', brand:'logo-ryobi.jpg', description:'Taille-haies 18V + sac', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi3.jpg', brand:'logo-ryobi.jpg', description:'Ponceuse vibrante 1/3 de feuille 200 W et 250W', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi4.jpg', brand:'logo-ryobi.jpg', description:'Scie circulaire 1600 W + mallette', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi5.jpg', brand:'logo-ryobi.jpg', description:'Scie sauteuse 600 W + mallette', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi6.jpg', brand:'logo-ryobi.jpg', description:'Ponceuse exantrique 300 W + 5 abrasifs', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-ryobi7.jpg', brand:'logo-ryobi.jpg', description:'2 Perforateurs SDS', recompense:'Tous les participants du challenge')
+
 
 
 
