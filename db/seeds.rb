@@ -28,7 +28,7 @@ Marque.destroy_all
 
 Marque.create!(logo:'logo-square-bc.jpg', url: 'http://bikenconnect.com/')
 Marque.create!(logo:'logo-topvelo.jpg', url: 'https://www.topvelo.fr/')
-Marque.create!(logo:'logo-asterion.png', url: 'http://www.asterion-wheels.com')
+Marque.create!(logo:'logo-asterion.jpg', url: 'http://www.asterion-wheels.com')
 Marque.create!(logo:'logo-ryobi.jpg', url: 'https://fr.ryobitools.eu/')
 Marque.create!(logo:'logo-goodicom.jpg', url: 'http://www.goodicom.fr/')
 Marque.create!(logo:'logo-dmtex.jpg', url: 'http://bikenconnect.com/')
@@ -66,7 +66,7 @@ Marque.create!(logo:'logo-june.jpg', url: 'https://www.junecycling.com/')
 
 Lot.destroy_all
 
-Lot.create!(image:'lot-asterion.jpg', brand:'logo-asterion.png', description:'7 paires de roues Astérion Silver Race', recompense:' pour les leaders du Challenge')
+Lot.create!(image:'lot-asterion.jpg', brand:'logo-asterion.jpg', description:'7 paires de roues Astérion Silver Race', recompense:' pour les leaders du Challenge')
 Lot.create!(image:'lot-topvelo.jpg', brand:'logo-topvelo.jpg', description:'20 abonnements', recompense:' pour les leaders du Challenge')
 Lot.create!(image:'lot-velodrome.jpg', brand:'logo-square-velodrome.jpg', description:'10 Baptêmes Piste', recompense:' pour les leaders du Challenge')
 Lot.create!(image:'lot-dso.jpg', brand:'logo-square-dso.jpg', description:'1 stage à Sant Feliu de Guixols en Costa Brava en pension complète pendant 1 semaine d’une valeur de 823€', recompense:' pour le leader du Challenge')
