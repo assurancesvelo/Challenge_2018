@@ -60,7 +60,7 @@ Marque.create!(logo:'logo-allbikers.png', url: 'https://all-bikers.com')
 Marque.create!(logo:'logo-smoocyclette.jpg', url: 'https://smoocyclette.fr/')
 Marque.create!(logo:'logo-braquet-libre.jpg', url: 'https://www.braquetlibre.com/')
 Marque.create!(logo:'logo-june.jpg', url: 'https://www.junecycling.com/')
-Marque.create!(logo:'logo_nutrisens.jpg', url: 'https://www.nutrisens.com/')
+Marque.create!(logo:'logo_nutrisens.jpg', url: 'http://www.nutrisens-sport.com/')
 Marque.create!(logo:'logo_vtopo.jpg', url: 'http://www.vtopo.fr/')
 
 
