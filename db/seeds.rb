@@ -63,7 +63,7 @@ Marque.create!(logo:'logo-june.jpg', url: 'https://www.junecycling.com/')
 Marque.create!(logo:'logo_nutrisens.jpg', url: 'http://www.nutrisens-sport.com/')
 Marque.create!(logo:'logo_vtopo.jpg', url: 'http://www.vtopo.fr/')
 Marque.create!(logo:'logo-alibabike.jpg', url: 'https://www.alibabike.com/')
-Marque.create!(logo:'logo-cryobox.jpg', url: 'http://cryobox.cool/')
+Marque.create!(logo:'logo-cryobox.png', url: 'http://cryobox.cool/')
 Marque.create!(logo:'logo-chateau.jpg', url: 'http://www.culture.gouv.fr/Thematiques/Monuments-historiques-Sites-patrimoniaux-remarquables/Presentation/Monuments-historiques')
 
 
@@ -116,7 +116,7 @@ Lot.create!(image:'lot-ryobi7.jpg', brand:'logo-ryobi.jpg', description:'2 Perfo
 Lot.create!(image:'lot-chateau.png', brand:'logo-chateau.jpg', description:'50 invitations Tarif réduit château Lembron et Aulteribe', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-vtopo.png', brand:'logo_vtopo.jpg', description:'100 guides Topo Cyclo', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-sportihome.png', brand:'logo-sportihome.jpg', description:'8 bons de 50€ à utiliser sur site', recompense:'Tous les participants du challenge')
-Lot.create!(image:'lot-crycobox.png', brand:'logo-cryobox.jpg', description:'30 séances de cryothérapie valable pour deux personnes', recompense:'30 premiers de chaque catégorie')
+Lot.create!(image:'lot-crycobox.png', brand:'logo-cryobox.png', description:'30 séances de cryothérapie valable pour deux personnes', recompense:'30 premiers de chaque catégorie')
 Lot.create!(image:'lot-alibabike.png', brand:'logo-alibabike.jpg', description:'10% de remise sur le site', recompense:'Tous les participants du challenge')
 
 
