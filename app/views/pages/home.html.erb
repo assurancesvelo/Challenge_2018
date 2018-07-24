@@ -6,7 +6,7 @@
       <h3><span style="border-bottom: 2px solid #F75100;">Gagne des récompenses</span> à la fin de chaque cyclosportives</h3>
       <br>
 
-      <a id="clickChallenge" href="#challenge" class="btn btn-orange-lg">Voir le Challenge</a>
+      <%= link_to "S'inscrire pour la remise des prix", event_path, class: "btn btn-orange-lg pulse" %>
 
     </div>
   </div>
@@ -14,20 +14,20 @@
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('<%= image_path "header-slide2.jpg" %>')">
+      <div class="carousel-item active" style="background-image: url('<%= image_path "header-slide1.jpg" %>')">
         <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <!-- Slide Two - Set the background image for this slide in the line below
       <div class="carousel-item" style="background-image: url('<%= image_path "header-slide3.jpg" %>')">
         <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
+        Slide Two - Set the background image for this slide in the line below
       <div class="carousel-item" style="background-image: url('<%= image_path "header-slide1.jpg" %>')">
         <div class="carousel-caption d-none d-md-block">
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </header>

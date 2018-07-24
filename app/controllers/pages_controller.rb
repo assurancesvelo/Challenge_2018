@@ -6,4 +6,6 @@ class PagesController < ApplicationController
   end
   def reglement
   end
+  def event
+  end
 end
