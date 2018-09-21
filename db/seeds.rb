@@ -65,7 +65,7 @@ Marque.create!(logo:'logo_vtopo.jpg', url: 'http://www.vtopo.fr/')
 Marque.create!(logo:'logo-alibabike.jpg', url: 'https://www.alibabike.com/')
 Marque.create!(logo:'logo-cryobox.png', url: 'http://cryobox.cool/')
 Marque.create!(logo:'logo-chateau.jpg', url: 'http://www.culture.gouv.fr/Thematiques/Monuments-historiques-Sites-patrimoniaux-remarquables/Presentation/Monuments-historiques')
-
+Marque.create!(logo:'logo-trioulier.png', url: '')
 
 Lot.destroy_all
 
