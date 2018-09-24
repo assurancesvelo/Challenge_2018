@@ -68,6 +68,8 @@ Marque.create!(logo:'logo-chateau.jpg', url: 'http://www.culture.gouv.fr/Themati
 Marque.create!(logo:'logo-trioulier.png', url: 'http://chaudieres.com/')
 Marque.create!(logo:'logo-alltrick.png', url: 'https://www.alltricks.fr/')
 Marque.create!(logo:'logo-lavoute.png', url: 'http://www.lavoute-chilhac.com/')
+Marque.create!(logo:'logo-sena.png', url: 'https://www.sena.com/fr/')
+
 
 
 
