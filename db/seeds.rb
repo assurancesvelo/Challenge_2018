@@ -125,6 +125,15 @@ Lot.create!(image:'lot-sportihome.png', brand:'logo-sportihome.jpg', description
 Lot.create!(image:'lot-crycobox.png', brand:'logo-cryobox.png', description:'30 séances de cryothérapie valable pour deux personnes', recompense:'30 premiers de chaque catégorie')
 Lot.create!(image:'lot-alibabike.png', brand:'logo-alibabike.jpg', description:'10% de remise sur le site', recompense:'Tous les participants du challenge')
 
+Lot.create!(image:'lot-produsports.png', brand:'logo-produsport.png', description:'4 casques RH+', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-cyclyk.png', brand:'logo-cyclyk.png', description:'20 supports smartphones ', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-thebeam.png', brand:'logo-thebeam.png', description:'10 rétroviseurs', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-june.png', brand:'logo-june.jpg', description:'30 paires de chaussettes' , recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-montresvelodrome.png', brand:'logo-square-velodrome.png', description:'3 montres Tissot Tour de France', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-sena.png', brand:'logo-sena.png', description: ' Casques connectés' , recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-lunettesprodusport.png', brand:'logo-produsport.png', description: ' 4 paires de lunettes' , recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-livresvelodrome.png', brand:'logo-square-velodrome.png', description:'10 livres velodrome', recompense:'Tous les participants du challenge')
+Lot.create!(image:'lot-bikeandconnect.png', brand:'logo-square-bc.jpg', description:'2 tenues Bike and Connect' , recompense:'Tous les participants du challenge')
 
 
 
