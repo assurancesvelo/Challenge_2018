@@ -70,6 +70,7 @@ Marque.create!(logo:'logo-alltrick.png', url: 'https://www.alltricks.fr/')
 Marque.create!(logo:'logo-lavoute.png', url: 'http://www.lavoute-chilhac.com/')
 Marque.create!(logo:'logo-sena.png', url: 'https://www.sena.com/fr/')
 Marque.create!(logo:'logo-ahrpe.png', url: 'http://ahrpe.fr/')
+Marque.create!(logo:'logo-siroko.png', url: 'https://www.siroko.com/')
 
 
 
@@ -124,7 +125,6 @@ Lot.create!(image:'lot-vtopo.png', brand:'logo_vtopo.jpg', description:'100 guid
 Lot.create!(image:'lot-sportihome.png', brand:'logo-sportihome.jpg', description:'8 bons de 50€ à utiliser sur site', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-crycobox.png', brand:'logo-cryobox.png', description:'30 séances de cryothérapie valable pour deux personnes', recompense:'30 premiers de chaque catégorie')
 Lot.create!(image:'lot-alibabike.png', brand:'logo-alibabike.jpg', description:'10% de remise sur le site', recompense:'Tous les participants du challenge')
-
 Lot.create!(image:'lot-produsports.png', brand:'logo-produsport.png', description:'4 casques RH+', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-cyclyk.png', brand:'logo-cyclyk.png', description:'20 supports smartphones ', recompense:'Tous les participants du challenge')
 Lot.create!(image:'lot-thebeam.png', brand:'logo-thebeam.png', description:'10 rétroviseurs', recompense:'Tous les participants du challenge')
