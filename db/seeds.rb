@@ -71,6 +71,8 @@ Marque.create!(logo:'logo-lavoute.png', url: 'http://www.lavoute-chilhac.com/')
 Marque.create!(logo:'logo-sena.png', url: 'https://www.sena.com/fr/')
 Marque.create!(logo:'logo-ahrpe.png', url: 'http://ahrpe.fr/')
 Marque.create!(logo:'logo-siroko.png', url: 'https://www.siroko.com/')
+Marque.create!(logo:'logo-harley1.png', url: 'http://www.harley-valleedechevreuse.com/')
+Marque.create!(logo:'logo-harley2.png', url: 'http://www.harley-valleedechevreuse.com/')
 
 
 
