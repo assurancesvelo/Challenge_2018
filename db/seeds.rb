@@ -26,6 +26,7 @@ Recomandation.create!(name: 'Christian Dauphin', photo: 'recommandation-christia
 
 Marque.destroy_all
 
+Marque.create!(logo:'logo_merida.png', url: 'https://www.merida-bikes.com/')
 Marque.create!(logo:'logo-square-bc.jpg', url: 'http://bikenconnect.com/')
 Marque.create!(logo:'logo-topvelo.jpg', url: 'https://www.topvelo.fr/')
 Marque.create!(logo:'logo-asterion.jpg', url: 'http://www.asterion-wheels.com')
@@ -71,6 +72,7 @@ Marque.create!(logo:'logo-lavoute.png', url: 'http://www.lavoute-chilhac.com/')
 Marque.create!(logo:'logo-sena.png', url: 'https://www.sena.com/fr/')
 Marque.create!(logo:'logo-ahrpe.png', url: 'http://ahrpe.fr/')
 Marque.create!(logo:'logo-siroko.png', url: 'https://www.siroko.com/')
+Marque.create!(logo:'logo_stimium.png', url: 'https://www.stimium.com/')
 Marque.create!(logo:'logo-harley1.png', url: 'http://www.harley-valleedechevreuse.com/')
 Marque.create!(logo:'logo-harley2.png', url: 'http://www.harley-valleedechevreuse.com/')
 
